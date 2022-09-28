@@ -3,7 +3,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
     return (
-        <div name="home" className="w-full h-screen bg-[#06283D]">
+        <div name="home" className="w-full h-screen bg-[#083754]">
             {/* Container */}
             <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
                 <p className="text-gray-100">Hi, I'm</p>
@@ -19,7 +19,7 @@ const Home = () => {
                     Java and Express to name a few things.
                 </p>
                 <div>
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-gray-800 hover:border-bg-gray-800">
+                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#06283d] hover:border-[#06283d]">
                         View Work{" "}
                         <span className="group-hover:rotate-90 duration-75">
                             <HiArrowNarrowRight className="ml-3" />
