@@ -1,5 +1,6 @@
-import React from "react";
-import NetflixClone from "../assets/flixclone.png";
+import React from 'react';
+import NetflixClone from '../assets/flixclone.png';
+import CryptoApp from '../assets/cryptoapp.png';
 
 const Work = () => {
     return (
@@ -43,7 +44,7 @@ const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${NetflixClone})` }}
+                        style={{ backgroundImage: `url(${CryptoApp})` }}
                         className="rounded-md shadow-lg shadow-[#040c16]"
                     >
                         <div className="group container flex justify-center items-center mx-auto content-div">
@@ -53,12 +54,12 @@ const Work = () => {
                                     Netflix Application
                                 </span>
                                 <div className="pt-8 text-center">
-                                    <a href="/">
+                                    <a href="https://crypto-app-9a33d.web.app">
                                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                             Demo
                                         </button>
                                     </a>
-                                    <a href="/">
+                                    <a href="https://github.com/MikeWight/cryptoapp">
                                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                             Code
                                         </button>
